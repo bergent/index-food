@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Индекс.Еда</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/normalize.css">
-    </head>
-    <body>
-        <header class="header container">
-            <a href="/" class="logo">
-                <img width="128" height="58" src="img/logo.png" alt="Лого: Индекс:Еда" class="logo-image">
-            </a>
-            <form action="#" class="search-form">
-                <input class="search-input" type="search" placeholder="Блюда">
-                <button class="search-button">
-                    <img src="img/search-icon.svg" alt="search-icon" class="search-icon">
-                </button>
-            </form>
-            <div class="auth">
-                <a href="#" class="login">Войти</a>
-            </div>
-            <a href="" class="shopping-cart">
-                <img src="img/shopping-cart-icon.svg" alt="Shopping Cart">
-                <span class="shopping-counter">12</span>
-            </a>
-        </header>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Индекс.Еда</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+  </head>
+  <body>
+    <header class="header container">
+      <a href="/" class="logo">
+        <img
+          width="128"
+          height="58"
+          src="img/logo.png"
+          alt="Лого: Индекс:Еда"
+          class="logo-image"
+        />
+      </a>
+      <form action="#" class="search-form">
+        <input class="search-input" type="search" placeholder="Блюда" />
+        <button class="search-button">
+          <img
+            src="img/search-icon.svg"
+            alt="search-icon"
+            class="search-icon"
+          />
+        </button>
+      </form>
+      <div class="auth">
+        <a href="#" class="login">Войти</a>
+      </div>
+      <a href="" class="shopping-cart">
+        <img src="img/shopping-cart-icon.svg" alt="Shopping Cart" />
+        <span class="shopping-counter">12</span>
+      </a>
+    </header>
+
+    <main class="container">
+      <div class="slider">
+        <div class="slide slide-text-light slide-summer">
+          <div class="slide-content">
+            <h2 class="slide-title">Неделя летних овощей</h2>
+            <p class="slide-text">
+              Специальная овощная корзина. Новые продукты, специальные цены,
+              скидки!
+            </p>
+            <a href="" class="button button-primary">Заказать со скидкой</a>
+          </div>
+        </div>
+      </div>
+      <div class="promo">
+        <section class="card card-text-light card-promo1">
+          <div class="card-header">
+            <h3 class="card-title">Сладкая корзина</h3>
+            <p class="card-description">
+              Произвольный выбор десертов по Вашему желанию.
+            </p>
+          </div>
+          <div class="card-footer">
+            <strong class="card-price">ОТ 1 300 ₽</strong>
+            <span class="card-delivery">стоимость доставки до 200 ₽</span>
+            <a href="#" class="button button-default">Собрать корзину</a>
+          </div>
+        </section>
+        <section class="card card-text-light card-promo2">
+          <div class="card-header">
+            <h3 class="card-title">Минимум усилий</h3>
+            <p class="card-description">
+              Произвольный выбор продуктов по Вашему желанию.
+            </p>
+          </div>
+          <div class="card-footer">
+            <strong class="card-price">ОТ 700 ₽</strong>
+            <span class="card-delivery">стоимость доставки до 200 ₽</span>
+            <a href="#" class="button button-default">Собрать корзину</a>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
